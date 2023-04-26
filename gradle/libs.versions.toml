@@ -1,0 +1,104 @@
+[versions]
+activity-compose = "1.5.1"
+core-ktx = "1.9.0"
+legacy-support-v4 = "1.0.0"
+lifecycle-runtime-ktx = "2.5.1"
+percentlayout = "1.0.0"
+play-services-wearable = "18.0.0"
+recyclerview = "1.3.0"
+compose-bom = "2022.10.00"
+
+androidx-wear = "1.2.0"
+androidx-wear-compose-foundation = "1.2.0-alpha08"
+androidx-wear-compose-navigation = "1.2.0-alpha08"
+androidx-wear-compose-material = "1.0.0-alpha08"
+androidx-wear-compose-material3 = "1.0.0-alpha02"
+androidx-wear-input = "1.2.0-alpha02"
+
+androidx-activity = "1.3.0"
+androidx-appcompat = "1.6.1"
+androidx-core-splashscreen = "1.0.0"
+androidx-work-runtime-ktx = "2.8.1"
+
+com-google-android-horologist = "0.4.1"
+
+androidx-room-ktx = "2.5.1"
+
+androidx-lifecycle-common-java8 = "2.6.0-alpha01"
+androidx-lifecycle-runtime-compose = "2.6.0-alpha01"
+androidx-lifecycle-viewmodel-compose = "2.6.0-alpha01"
+androidx-lifecycle-viewmodel-ktx = "2.6.0-alpha01"
+
+com-squareup-retrofit2 = "2.9.0"
+
+com-jakewharton-retrofit2-kotlinx-serialization-converter = "1.0.0"
+org-jetbrains-kotlinx-serialization = "1.5.0"
+
+androidx-compose-runtime-livedata = "1.4.2"
+
+androidx-room-compiler = "2.5.1"
+
+org-jetbrains-kotlinx-coroutines-android = "1.6.0"
+org-jetbrains-kotlinx-coroutines-core = "1.6.0"
+
+androidx-room-testing = "2.5.1"
+
+com-android-application = "8.1.0-alpha10"
+org-jetbrains-kotlin-android = "1.8.0"
+
+[libraries]
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacy-support-v4" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+percentlayout = { group = "androidx.percentlayout", name = "percentlayout", version.ref = "percentlayout" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "play-services-wearable" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+
+androidx-wear = { group = "androidx.wear", name = "wear", version.ref = "androidx-wear" }
+androidx-wear-compose-foundation = { group = "androidx.wear.compose", name = "compose-foundation", version.ref = "androidx-wear-compose-foundation" }
+androidx-wear-compose-material = { group = "androidx.wear.compose", name = "compose-material", version.ref = "androidx-wear-compose-material" }
+androidx-wear-compose-material3 = { group = "androidx.wear.compose", name = "compose-material3", version.ref = "androidx-wear-compose-material3" }
+androidx-wear-compose-navigation = { group = "androidx.wear.compose", name = "compose-navigation", version.ref = "androidx-wear-compose-navigation" }
+androidx-wear-input = { group = "androidx.wear", name = "wear-input", version.ref = "androidx-wear-input" }
+
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidx-activity" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-core-splashscreen" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "androidx-work-runtime-ktx" }
+
+com-google-android-horologist = { group = "com.google.android.horologist", name = "horologist-composables", version.ref = "com-google-android-horologist" }
+
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidx-room-ktx" }
+
+androidx-lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "androidx-lifecycle-common-java8" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle-runtime-compose" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle-viewmodel-compose" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle-viewmodel-ktx" }
+
+com-squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "com-squareup-retrofit2" }
+
+com-jakewharton-retrofit2-kotlinx-serialization-converter = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "com-jakewharton-retrofit2-kotlinx-serialization-converter" }
+org-jetbrains-kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "org-jetbrains-kotlinx-serialization" }
+
+androidx-compose-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "androidx-compose-runtime-livedata" }
+
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidx-room-compiler" }
+
+org-jetbrains-kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx-coroutines-android" }
+org-jetbrains-kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx-coroutines-core" }
+
+androidx-room-testing = { group = "androidx.room", name = "room-testing", version.ref = "androidx-room-testing" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "com-android-application" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[bundles]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WCorreios</string>
+
+    <string name="code">Código</string>
+
+    <string name="add">Adicionar</string>
+    <string name="add_description">Adicionar novo código</string>
+
+    <string name="manage">Visualizar</string>
+    <string name="manage_description">Visualizar códigos</string>
+
+    <string name="object_saved">Código salvo</string>
+
+    <string name="notification_permission_denied">Permissão para notificações negada</string>
+
+    <string name="added">adicionado</string>
+    <string name="event">Evento</string>
+    <string name="location">Localização</string>
+    <string name="destination">Destino</string>
+
+    <string name="object_removed">Objeto removido</string>
+    <string name="object_not_found">Objeto não encontrado</string>
+</resources>
