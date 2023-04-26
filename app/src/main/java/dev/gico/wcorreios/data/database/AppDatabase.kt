@@ -32,7 +32,6 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "wcorreios-database"
                 )
-                .fallbackToDestructiveMigration()
                 .addCallback(AppDatabaseCallback(scope))
                 .build()
 
@@ -49,8 +48,8 @@ abstract class AppDatabase : RoomDatabase() {
 
             INSTANCE?.let { appDatabase ->
                 scope.launch {
-                    appDatabase.correiosDAO().insert(Code("TE007302221BR"))
-                    appDatabase.correiosDAO().insert(Code("OZ948193843BR"))
+//                    appDatabase.correiosDAO().insert(Code("TE007302221BR"))
+//                    appDatabase.correiosDAO().insert(Code("OZ948193843BR"))
                 }
             }
         }

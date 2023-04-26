@@ -15,10 +15,6 @@ class CodeViewModel(private val codeRepository: CodeRepository) : ViewModel() {
         codeRepository.insert(code)
     }
 
-    fun delete(code: Code) = viewModelScope.launch {
-        codeRepository.delete(code)
-    }
-
     fun deleteById(code: String) = viewModelScope.launch {
         codeRepository.deleteById(code)
     }

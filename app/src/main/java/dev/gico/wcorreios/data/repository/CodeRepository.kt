@@ -17,12 +17,6 @@ class CodeRepository(private val codeDAO: CodeDAO) {
 
     @Suppress("RedundantSuspendModifier")
     @WorkerThread
-    suspend fun delete(code: Code){
-        codeDAO.delete(code)
-    }
-
-    @Suppress("RedundantSuspendModifier")
-    @WorkerThread
     suspend fun deleteById(code: String){
         codeDAO.deleteById(code)
     }
